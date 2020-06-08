@@ -2,9 +2,21 @@
 在Github开源平台上无非两种语言：计算机语言和自然语言，写程序我们会用到各种编程语言，而写文档是我们就要用到自然语言————Markdown。
 
 ## 目录
-### [了解Markdown](README.md#了解Markdown)
-### [安装HBuilder工具](README.md#安装HBuilder工具)
-### [Markdown语法](README.md#Markdown语法)
+- ### [了解Markdown](README.md#了解Markdown)
+- ### [安装HBuilder工具](README.md#安装HBuilder工具)
+- ### [Markdown语法](README.md#Markdown语法)
+	- [标题](README.md#标题)  
+	- [段落](README.md#段落)  
+	- [强调](README.md#强调)  
+	- [链接](README.md#链接)  
+	- [图片](README.md#图片)  
+	- [列表](README.md#列表)  
+	- [引用](README.md#引用)  
+	- [代码块](README.md#代码块)  
+	- [水平分隔线](README.md#水平分隔线)  
+	- [HTML代码](README.md#HTML代码)  
+	- [表格](README.md#表格)  
+	- [GFM语法](README.md#GFM语法)
 
 
 ## 了解Markdown
@@ -22,18 +34,6 @@
 
 
 ## Markdown语法  
-[标题](README.md#标题)  
-[段落](README.md#段落)  
-[强调](README.md#强调)  
-[链接](README.md#链接)  
-[图片](README.md#图片)  
-[列表](README.md#列表)  
-[引用](README.md#引用)  
-[代码块](README.md#代码块)  
-[水平分隔线](README.md#水平分隔线)  
-[HTML代码](README.md#HTML代码)  
-[表格](README.md#表格)  
-[GFM语法](README.md#GFM语法)
 
 
 ### 标题
