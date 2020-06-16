@@ -4,13 +4,22 @@
 可以使用别名，定制属于自己的 Git Bash 命令，提高自己的操作效率，等等。
 
 ## 目录
-- [一、了解Git](README.md#了解Git)
-- [二、Git GUI](README.md#GitGUI)
-- [三、Git配置](README.md#Git配置)
-- [四、Git协议](README.md#Git协议)
-- [五、Git基本操作](README.md#Git基本操作)
-- [六、标签操作](README.md#标签操作)
-- [七、分支操作](README.md#分支操作)
+- [一、了解Git](README.md#一了解Git)
+    - [Git工作流程](README.md#Git工作流程)
+- [二、Git GUI](README.md#二Git-GUI)
+- [三、Git配置](README.md#三Git配置)
+    - [.gitignore](README.md#一gitignore)
+	- [换行符](README.md#二换行符)
+	- [别名](README.md#三别名)
+	- [存储凭证](README.md#四存储凭证)
+- [四、Git协议](README.md#四Git协议)
+    - [本地协议](README.md#本地协议)
+	- [Git协议](README.md#Git协议)
+	- [HTTP协议](README.md#HTTP协议)
+	- [SSH协议](README.md#SSH协议)
+- [五、Git基本操作](README.md#五Git基本操作)
+- [六、标签操作](README.md#六标签操作)
+- [七、分支操作](README.md#七分支操作)
 
 ---
 
@@ -32,7 +41,7 @@ Git 是分布式版本控制系统，那么它可以没有中央服务器的，�
 
 ![谁在用Git?](images/pic2.png)
 
-### git 工作流程
+### Git工作流程
 一般工作流程如下：  
 1. 从远程仓库中克隆 Git 资源作为本地仓库。
 2. 从本地仓库中 checkout 代码然后进行代码修改
@@ -119,7 +128,7 @@ Git 是分布式版本控制系统，那么它可以没有中央服务器的，�
 所有的这些别名都保存在Git主目录下一个叫**.gitconfig**的隐藏的配置文件中。
 我们可以执行***“cd ~”***命令来到主目录，然后执行“***vim .gitconfig***”命令就可以查看和编辑刚刚配置的所有别名了。
 
-### （四）凭证
+### （四）存储凭证
 如果我们使用的是HTTP协议，则每次向GitHub执行推送或拉取时，都要输入GitHub的用户名和密码。为了提高效率我们执行命令：  
 ![](images/pic16.png)  
 此后在执行push或pull时只需再输入一次用户名和密码，就会被记住，以后就再不用输入了。
@@ -243,7 +252,7 @@ git reset 操作的示例图：
 ![](images/pic35.png)  
 变基操作的功能非常的强大，它可以改写历史提交，并对分支进行操作！
 
-- ***关于“Git提交信息规范及Commitizen工具使用指南”，请移步[这里](ch0301/commitizen.md)***
+- ***关于“Git提交信息规范及Commitizen工具使用指南”，请移步[这里](ch0301/README.md)***
 
 ---
 
@@ -259,7 +268,8 @@ git reset 操作的示例图：
 
 ---
 
-## 七、Git分支
+## 七、分支操作
+git分支是非常重要的，如果我们不能掌握它，那么我们使用Git的水平基本上算是停留在幼儿园水平！！  
 - **使用分支最大的作用是有利于实现软件的并行开发**。例如：  
 ![](images/pic38.png)  
 又如：  
@@ -307,7 +317,7 @@ git reset 操作的示例图：
 #删除stash列表  
 **git stash clear**  
 
-## 更多关于Git常用命令的介绍，请移步[这里](.../git/README.md)
+## 更多关于Git常用命令的介绍，请移步[这里](../../git/README.md)
 
 （完）
 

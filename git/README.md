@@ -1,17 +1,21 @@
 # 常用 Git 命令清单
+本文档转自阮一峰老师的[常用Git命令清单](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)，在自己学习的基础上增加了：  
+- 修改分支名
+- 删除分支
+- git stash 相关命令... 等命令
 
 
 ## 目录
-- [一、新建代码库](README.md#一、新建代码库)
-- [二、配置](README.md#二、配置)
-- [三、增加/删除文件](README.md#三、增加/删除文件)
-- [四、代码提交](README.md#四、代码提交)
-- [五、分支](README.md#五、分支)
-- [六、标签](README.md#六、标签)
-- [七、查看信息](README.md#七、查看信息)
-- [八、远程同步](README.md#八、远程同步)
-- [九、撤销](README.md#九、撤销)
-- [十、其他](README.md#十、其他)
+- [一、新建代码库](README.md#一新建代码库)
+- [二、配置](README.md#二配置)
+- [三、增加和删除文件](README.md#三增加和删除文件)
+- [四、代码提交](README.md#四代码提交)
+- [五、分支](README.md#五分支)
+- [六、标签](README.md#六标签)
+- [七、查看信息](README.md#七查看信息)
+- [八、远程同步](README.md#八远程同步)
+- [九、撤销](README.md#九撤销)
+- [十、其他](README.md#十其他)
 
 一般来说，日常使用只要记住下图6个命令，就可以了。但是熟练使用，恐怕要记住60～100个命令。
 
@@ -48,7 +52,7 @@ Git的设置文件为.gitconfig，它可以在用户主目录下（全局配置�
 **$ git config [--global] user.name "[name]"**  
 **$ git config [--global] user.email "[email address]"**
 
-## 三、增加/删除文件
+## 三、增加和删除文件
 
 #添加指定文件到暂存区  
 **$ git add [file1] [file2] ...**
@@ -151,7 +155,6 @@ Git的设置文件为.gitconfig，它可以在用户主目录下（全局配置�
 **$ git push origin :[remote branch]**
 **$ git branch -dr [remote/branch]**
 
-## 六、stash操作
 #将当前分支上的修改保存在一个临时区域，然后就可以进行分支切换操作  
 **$ git stash**  
 
@@ -165,7 +168,7 @@ Git的设置文件为.gitconfig，它可以在用户主目录下（全局配置�
 **git stash clear**  
 
 
-## 七、标签
+## 六、标签
 
 #列出所有tag  
 **$ git tag**
@@ -194,7 +197,7 @@ Git的设置文件为.gitconfig，它可以在用户主目录下（全局配置�
 #新建一个分支，指向某个tag  
 **$ git checkout -b [branch] [tag]**
 
-## 八、查看信息
+## 七、查看信息
 
 #显示有变更的文件  
 **$ git status**
@@ -257,7 +260,7 @@ Git的设置文件为.gitconfig，它可以在用户主目录下（全局配置�
 #显示当前分支的最近几次提交  
 **$ git reflog**
 
-## 九、远程同步
+## 八、远程同步
 
 #下载远程仓库的所有变动  
 **$ git fetch [remote]**
@@ -283,7 +286,7 @@ Git的设置文件为.gitconfig，它可以在用户主目录下（全局配置�
 #推送所有分支到远程仓库  
 **$ git push [remote] --all**
 
-## 十、撤销
+## 九、撤销
 
 #恢复暂存区的指定文件到工作区  
 **$ git checkout [file]**
@@ -335,7 +338,7 @@ Git的设置文件为.gitconfig，它可以在用户主目录下（全局配置�
 #回撤远程仓库，-f即--force
 **$ git push -f**
 
-## 十一、其他
+## 十、其他
 
 #生成一个可供发布的压缩包  
 **$ git archive**
