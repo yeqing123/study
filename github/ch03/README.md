@@ -308,7 +308,7 @@ git分支是非常重要的，如果我们不能掌握它，那么我们使用Gi
 #删除stash列表  
 **git stash clear**  
 
-## 更多关于Git常用命令的介绍，请移步[这里](.../git/README.md)
+## 更多关于Git常用命令的介绍，请移步[这里](../../git/README.md)
 
 （完）
 
