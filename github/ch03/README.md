@@ -5,7 +5,7 @@
 
 ## 目录
 - [了解Git](README.md#了解Git)
-- [Git GUI](README.md#GitGUI)
+- [Git GUI](README.md#Git-GUI)
 - [Git配置](README.md#Git配置)
 - [Git协议](README.md#Git协议)
 - [Git基本操作](README.md#Git基本操作)
@@ -259,7 +259,7 @@ git reset 操作的示例图：
 
 ---
 
-## Git分支
+## 分支操作
 git分支是非常重要的，如果我们不能掌握它，那么我们使用Git的水平基本上算是停留在幼儿园水平！！  
 - **使用分支最大的作用是有利于实现软件的并行开发**。例如：  
 ![](images/pic38.png)  
