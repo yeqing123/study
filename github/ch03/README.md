@@ -8,7 +8,7 @@
     - [Git工作流程](README.mdGit工作流程)
 - [二、Git GUI](README.md#二Git-GUI)
 - [三、Git配置](README.md#三Git配置)
-    - [.gitignore](README.md#一.gitignore)
+    - [.gitignore](README.md#.gitignore)
 - [四、Git协议](README.md#四Git协议)
 - [五、Git基本操作](README.md#五Git基本操作)
 - [六、标签操作](README.md#六标签操作)
