@@ -2,16 +2,16 @@
 
 
 ## 目录
-- [一、新建代码库](README.md#新建代码库)
-- [二、配置](README.md#配置)
-- [三、增加/删除文件](README.md#增加/删除文件)
-- [四、代码提交](README.md#代码提交)
-- [五、分支](README.md#分支)
-- [六、标签](README.md#标签)
-- [七、查看信息](README.md#查看信息)
-- [八、远程同步](README.md#远程同步)
-- [九、撤销](README.md#撤销)
-- [十、其他](README.md#其他)
+- [新建代码库](README.md#新建代码库)
+- [配置](README.md#配置)
+- [增加/删除文件](README.md#增加/删除文件)
+- [代码提交](README.md#代码提交)
+- [分支](README.md#分支)
+- [标签](README.md#标签)
+- [查看信息](README.md#查看信息)
+- [远程同步](README.md#远程同步)
+- [撤销](README.md#撤销)
+- [其他](README.md#其他)
 
 一般来说，日常使用只要记住下图6个命令，就可以了。但是熟练使用，恐怕要记住60～100个命令。
 
@@ -23,7 +23,7 @@
 - Repository：仓库区（或本地仓库）
 - Remote：远程仓库
 
-## 一、新建代码库
+## 新建代码库
 
 #在当前目录新建一个Git代码库  
 **$ git init**
@@ -34,7 +34,7 @@
 #下载一个项目和它的整个代码历史  
 **$ git clone [url]**
 
-## 二、配置
+## 配置
 Git的设置文件为.gitconfig，它可以在用户主目录下（全局配置），也可以在项目目录下（项目配置）。
 
 
@@ -48,7 +48,7 @@ Git的设置文件为.gitconfig，它可以在用户主目录下（全局配置�
 **$ git config [--global] user.name "[name]"**  
 **$ git config [--global] user.email "[email address]"**
 
-## 三、增加/删除文件
+## 增加/删除文件
 
 #添加指定文件到暂存区  
 **$ git add [file1] [file2] ...**
@@ -72,7 +72,7 @@ Git的设置文件为.gitconfig，它可以在用户主目录下（全局配置�
 #改名文件，并且将这个改名放入暂存区  
 **$ git mv [file-original] [file-renamed]**
 
-## 四、代码提交
+## 代码提交
 
 #提交暂存区到仓库区  
 **$ git commit -m [message]**
@@ -93,7 +93,7 @@ Git的设置文件为.gitconfig，它可以在用户主目录下（全局配置�
   - 重做上一次commit，并包括指定文件的新变化  
     **$ git commit --amend [file1] [file2] ...**
 
-## 五、分支
+## 分支
 
 #列出所有本地分支  
 **$ git branch**
@@ -151,7 +151,6 @@ Git的设置文件为.gitconfig，它可以在用户主目录下（全局配置�
 **$ git push origin :[remote branch]**
 **$ git branch -dr [remote/branch]**
 
-## 六、stash操作
 #将当前分支上的修改保存在一个临时区域，然后就可以进行分支切换操作  
 **$ git stash**  
 
@@ -165,7 +164,7 @@ Git的设置文件为.gitconfig，它可以在用户主目录下（全局配置�
 **git stash clear**  
 
 
-## 七、标签
+## 标签
 
 #列出所有tag  
 **$ git tag**
@@ -194,7 +193,7 @@ Git的设置文件为.gitconfig，它可以在用户主目录下（全局配置�
 #新建一个分支，指向某个tag  
 **$ git checkout -b [branch] [tag]**
 
-## 八、查看信息
+## 查看信息
 
 #显示有变更的文件  
 **$ git status**
@@ -257,7 +256,7 @@ Git的设置文件为.gitconfig，它可以在用户主目录下（全局配置�
 #显示当前分支的最近几次提交  
 **$ git reflog**
 
-## 九、远程同步
+## 远程同步
 
 #下载远程仓库的所有变动  
 **$ git fetch [remote]**
@@ -283,7 +282,7 @@ Git的设置文件为.gitconfig，它可以在用户主目录下（全局配置�
 #推送所有分支到远程仓库  
 **$ git push [remote] --all**
 
-## 十、撤销
+## 撤销
 
 #恢复暂存区的指定文件到工作区  
 **$ git checkout [file]**
