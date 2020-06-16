@@ -57,7 +57,7 @@ Footer有两种情况
 ## 四、Commitizen工具
 
 Commitizen是一个撰写合格Commit message 的工具。
-安装命令如下：
+安装命令如下：  
 **$ npm install -g commitizen**
 
 进入工程项目仓库，使用 **npm init --yes**

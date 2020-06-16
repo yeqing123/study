@@ -4,13 +4,13 @@
 可以使用别名，定制属于自己的 Git Bash 命令，提高自己的操作效率，等等。
 
 ## 目录
-- [一、了解Git](README.md#了解Git)
-- [二、Git GUI](README.md#GitGUI)
-- [三、Git配置](README.md#Git配置)
-- [四、Git协议](README.md#Git协议)
-- [五、Git基本操作](README.md#Git基本操作)
-- [六、标签操作](README.md#标签操作)
-- [七、分支操作](README.md#分支操作)
+- [一、了解Git](README.md#一、了解Git)
+- [二、Git GUI](README.md#二、GitGUI)
+- [三、Git配置](README.md#三、Git配置)
+- [四、Git协议](README.md#四、Git协议)
+- [五、Git基本操作](README.md#五、Git基本操作)
+- [六、标签操作](README.md#六、标签操作)
+- [七、分支操作](README.md#七、分支操作)
 
 ---
 
@@ -243,7 +243,7 @@ git reset 操作的示例图：
 ![](images/pic35.png)  
 变基操作的功能非常的强大，它可以改写历史提交，并对分支进行操作！
 
-- ***关于“Git提交信息规范及Commitizen工具使用指南”，请移步[这里](ch0301/commitizen.md)***
+- ***关于“Git提交信息规范及Commitizen工具使用指南”，请移步[这里](ch0301/README.md)***
 
 ---
 
@@ -260,6 +260,7 @@ git reset 操作的示例图：
 ---
 
 ## 七、Git分支
+git分支是非常重要的，如果我们不能掌握它，那么我们使用Git的水平基本上算是停留在幼儿园水平！！  
 - **使用分支最大的作用是有利于实现软件的并行开发**。例如：  
 ![](images/pic38.png)  
 又如：  
