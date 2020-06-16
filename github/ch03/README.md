@@ -10,7 +10,7 @@
 - [Git协议](README.md#Git协议)
 - [Git基本操作](README.md#Git基本操作)
 - [标签操作](README.md#标签操作)
-- [分支操作](README.md#分支操作)
+- [一、分支操作](README.md#一分支操作)
 
 ---
 
