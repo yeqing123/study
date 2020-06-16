@@ -1,6 +1,6 @@
 # 常用 Git 命令清单
 本文档转自阮一峰老师的[常用Git命令清单](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)，在自己学习的基础上增加了：  
-- [修改分支名](README.md#修改分支名)
+- [修改分支名](README.md##修改分支名)
 - [删除分支](README.md#删除分支)
 - [git stash 相关命令](README.md#git-stash) 等命令
 
