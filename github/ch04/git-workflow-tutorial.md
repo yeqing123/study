@@ -1,5 +1,6 @@
 # 说明
-本文是转自Github上网名叫xirong的一篇介绍“Git工作流程指南”的文章，原文链接为：[https://github.com/xirong/my-git/blob/master/git-workflow-tutorial.md](https://github.com/xirong/my-git/blob/master/git-workflow-tutorial.md)
+本文是转自Github上网名叫xirong的一篇介绍“Git工作流程指南”的文章，原文链接为：  
+[https://github.com/xirong/my-git/blob/master/git-workflow-tutorial.md](https://github.com/xirong/my-git/blob/master/git-workflow-tutorial.md)  
 在这里感谢作者的辛勤劳动。
 
 还有阮一峰老师的：[Git使用规范流程](wwww.ruanyifeng.com/blog/2015/08/git-use-process.html)，对于理解Git工作流程也很有价值。
@@ -684,7 +685,7 @@ git branch -d issue-#001
 -----------------
 
 ## 2.4 `Forking`工作流
-***yeqing123总结：***  
+***[yeqing123](https://github.com/yeqing123)总结：***  
 之前学习的集中式工作流、功能分支工作流、Gitflow工作流，都适合在封闭的环境下进行，因为它们都只要一个远程仓库，更适合在公司或几个比较熟悉的人组成的团队里进行，因为他们都是远程仓库里项目的协作者，都有向远程仓库push的权限。  
 但是如果是在互联网环境下，如果谁都可以push到远程仓库，那么仓库就会变得乱七八糟无法维护。因此，Forking工作流更适合在互联网的开源社区里使用，因为人们都是互相不认识的，所以要想成为项目的协作者，只能先fork一个仓库到自己的github账户中，然后修改自己的远程仓库，
 然后向原来正式的项目仓库（通常我们将它称为upstream）发送一个pull request请求，请求仓库的维护者审核自己的修改，然后合并和他的仓库中。
