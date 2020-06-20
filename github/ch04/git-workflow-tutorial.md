@@ -3,7 +3,7 @@
 [https://github.com/xirong/my-git/blob/master/git-workflow-tutorial.md](https://github.com/xirong/my-git/blob/master/git-workflow-tutorial.md)  
 在这里感谢作者的辛勤劳动。
 
-还有阮一峰老师的：[Git使用规范流程](wwww.ruanyifeng.com/blog/2015/08/git-use-process.html)，对于理解Git工作流程也很有价值。
+还有阮一峰老师的：[Git使用规范流程](http://www.ruanyifeng.com/blog/2015/08/git-use-process.html)，对于理解Git工作流程也很有价值。
 
 ---
 
