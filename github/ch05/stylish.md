@@ -8,21 +8,16 @@ Github是一个非常好的学习网站，上面不仅有最新、最时髦的�
 
 ---
 
-## 一、stylish简介
-stylish [ˈstaɪlɪʃ] 英文单词的意思是：时髦的、流行的、漂亮的。  
-![图片](images/stylish-log.png)  
-这个log表示的是一款名为 stylish 的浏览器插件。Chorme、Firefox、Safari都有这款插件。  
-Github是一个非常好的学习网站，上面不仅与最新、最时髦的技术资料，有大牛收集整理的学习笔记和资料，还可以参与实际项目的开发。这些都非常有助于我们技术的提高和沉淀。
-
-在Github开源之旅的学习过程中，前四季主要是学习了Git的基础，由浅入深的讲解了Git的使用，并且第二季讲解了用Markdown在编写自然语言文档的语法规则。从第五季开始就进行实战的训练，Github上的仓库分为“文档型项目仓库”和“代码型项目仓库”。
-文档型项目仓库主要使用Markdown编写的自然语言文档，内容大多是自己的学习笔记或技术文档，除了第二季外在第六季（how-to-markdown）、第七季（Gitbook）、第八季（Jekyll静态站）都是文档型项目在Github上的极限玩儿法。
-代码型项目仓库就是基于不同编程语言的软件项目文档。  
-
-本季我们介绍基于CSS的**_stylish网站换肤技术_**，王顶老师在自己创建的[simple-clear-style](https://github.com/wangding/simple-clear-style)仓库就是很好的学习资料。
+## 目录
+- [一、stylish简介](stylish.md#一stylish简介)
+- [二、安装并使用stylish插件](stylish.md#二安装并使用stylish插件)
+- [三、CSS基础](stylish.md#三CSS基础)
+- [四、CSS学习路线](stylish.md#四CSS学习路线)
+- [五、总结](stylish.md#五总结)
 
 ---
 
-## stylish简介
+## 一、stylish简介
 stylish [ˈstaɪlɪʃ] 英文单词的意思是：时髦的、流行的、漂亮的。  
 ![图片](images/stylish-log.png)  
 这个log表示的是stylish的一款浏览器插件。Chorme、Firefox、Safari都有这款插件。
@@ -37,8 +32,6 @@ stylish [ˈstaɪlɪʃ] 英文单词的意思是：时髦的、流行的、漂亮
   
 ## 二、安装并使用stylish插件
 首先在插件市场搜索“stylish”，然后安装该插件，我是在Chorme上安装的。安装完成后会在浏览器右上角出现一个小图标:  
-## 安装并使用stylish插件
-首先在插件市场搜索“stylish”，然后安装该插件，我是在Chorme上安装的。安装完成后会在浏览器左上角出现一个小图标:  
 ![图片](images/stylish-plugin.png)  
 表示插件安装好了。
 
@@ -59,7 +52,7 @@ stylish [ˈstaɪlɪʃ] 英文单词的意思是：时髦的、流行的、漂亮
 ---
 
 ## 三、CSS基础
-1. **CSS简介**
+1. **CSS简介**  
   - CSS(Cascading Style Sheets)指*层叠*样式表
   - 样式定义如何显示HTML元素
   - 样式有三种存储方式：嵌入、内联和外链（外部的样式文件）
