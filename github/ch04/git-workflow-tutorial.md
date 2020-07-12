@@ -5,12 +5,9 @@
 
 还有阮一峰老师的：[Git使用规范流程](http://www.ruanyifeng.com/blog/2015/08/git-use-process.html)，对于理解Git工作流程也很有价值。
 
-<<<<<<< HEAD
-=======
 **_ps_**  
 ![图片](images/Git团队协作.png)
 
->>>>>>> 26cb5d0fe66c27550248eb8f6e2b734e2e4c7ed0
 ---
 
 # 目录
