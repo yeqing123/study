@@ -9,7 +9,7 @@
  ### [第三季 Git进阶](ch03/README.md)
  ### [第四季 Git团队协作](ch04/git-workflow-tutorial.md)
  ### [第五季 stylish 网站换肤](ch05/stylish.md)
- ### [第六季 how-to-markdown](ch06/REAME.md)
+ ### [第六季 how-to-markdown](ch06/README.md)
  
 
 
