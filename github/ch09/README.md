@@ -1,4 +1,4 @@
-# 九、Linux Bash 入门（从 Git Bash 到 Linux Bash） (上)
+# 九、Linux Bash 入门（从 Git Bash 到 Linux Bash）(上)
 - [一、实验环境搭建](section-1.md)
 - [二、懵懵懂懂之--shell是什么？](section-2.md)
 - [三、一见钟情之--初识Linux](section-3.md)

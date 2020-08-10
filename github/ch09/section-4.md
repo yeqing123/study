@@ -1,14 +1,14 @@
 # 四、花前月下
 
 ## 目录
-- [I/O 重定向](section-4.md#I/O重定向)
-  - [标准输出](section-4.md#标准输出)
-  - [标准错误](section-4.md#标准错误)
-  - [标准输入](section-4.md#标准输入)
-  - [管道线](section-4.md#pipe-line)
-  - [过滤器](section-4.md#filter)
-- [Shell眼中看世界](section-4.md#Shell眼中看世界)
-## I/O 重定向（redirection）  
+- [I/O 重定向](section-4.md#I/O-重定向-redirection)
+  - [标准输出](section-4.md#标准输出-stdout)
+  - [标准错误](section-4.md#标准错误-stderr)
+  - [标准输入](section-4.md#标准输入-stdin)
+  - [管道线](section-4.md#pipe-line-管道线)
+  - [过滤器](section-4.md#filter-过滤器)
+- [Shell眼中看世界](section-4.md#Shell-眼中看世界)
+## I/O重定向（redirection）  
 常用命令：  
 ![](images/pic32.png)
 重定向有三种：
