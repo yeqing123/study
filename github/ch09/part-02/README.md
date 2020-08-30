@@ -1,0 +1,13 @@
+# 九、Linux Bash 入门（从 Git Bash 到 Linux Bash）下
+- [一、共筑爱巢之 -- Shell 环境](section-1.md)
+- [二、共筑爱巢之 -- vi 简介](section-2.md)
+- [三、携手同行之 -- 定制命令提示符](section-3.md)
+- [四、携手同行之 -- 软件包管理](section-4.md)
+- [五、柴米油盐之 -- 存储媒介](section-5.md)
+- [六、柴米油盐之 -- 网络系统](section-6.md)
+- [七、柴米油盐之 -- 文件查找](section-7.md)
+- [八、七年之痒之 -- 归档和备份](section-8.md)
+- [九、七年之痒之 -- 正则表达式](section-9.md)
+- [十、七年之痒之 -- 文本处理](section-10.md)
+- [十一、白头到老之 -- 格式化输出](section-11.md)
+- [十二、白头到老之 -- 编译程序](section-12.md)

@@ -12,6 +12,7 @@
  ### [第六季 how-to-markdown](ch06/README.md)
  ### [第七季 Gitbook](ch07/README.md)
  ### [第八季 Jekyll 静态站](ch08/README.md)
- ### [第九季 Linux Bash入门 (上)](ch09/README.md)
+ ### [第九季 Linux Bash入门 (上)](ch09/part-01/README.md)
+ ### [第九季 Linux Bash入门 (下)](ch09/part-02/README.md)
 
 
