@@ -10,6 +10,9 @@
  ### [第四季 Git团队协作](ch04/git-workflow-tutorial.md)
  ### [第五季 stylish 网站换肤](ch05/stylish.md)
  ### [第六季 how-to-markdown](ch06/README.md)
- 
+ ### [第七季 Gitbook](ch07/README.md)
+ ### [第八季 Jekyll 静态站](ch08/README.md)
+ ### [第九季 Linux Bash入门 (上)](ch09/part-01/README.md)
+ ### [第九季 Linux Bash入门 (下)](ch09/part-02/README.md)
 
 
