@@ -17,6 +17,8 @@
 - [九、撤销](README.md#九撤销)
 - [十、其他](README.md#十其他)
 
+**另附**:[Git 提交的正确姿势：Commit message 编写指南](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
+
 一般来说，日常使用只要记住下图6个命令，就可以了。但是熟练使用，恐怕要记住60～100个命令。
 
 ![](images/pic1.png)
@@ -96,6 +98,7 @@ Git的设置文件为.gitconfig，它可以在用户主目录下（全局配置�
 
   - 重做上一次commit，并包括指定文件的新变化  
     **$ git commit --amend [file1] [file2] ...**
+	
 
 ## 五、分支
 
